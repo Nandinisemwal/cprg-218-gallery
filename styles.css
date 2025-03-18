@@ -11,3 +11,14 @@ body {
     margin: 0%;
     height: 100vh;
 }
+
+header {
+    background-color: #120323;
+    text-align: center;
+}
+/*added header*/
+
+/* color to h1*/
+h1 {
+    color: #97bf04;
+}
