@@ -22,3 +22,14 @@ header {
 h1 {
     color: #97bf04;
 }
+
+/* css to nav*/
+nav {
+    background-color: #d9043d;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+ul {
+list-style: none;
+}
