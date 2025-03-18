@@ -33,3 +33,15 @@ nav {
 ul {
 list-style: none;
 }
+
+ul li {
+    display: block;
+    text-align: center;
+    margin-bottom: 1rem;
+    border: #97bf04;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
