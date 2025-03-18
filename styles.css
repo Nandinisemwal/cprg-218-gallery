@@ -25,7 +25,7 @@ h1 {
 
 /* css to nav*/
 nav {
-    background-color: #d9043d;
+    background-color: none;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -38,7 +38,9 @@ ul li {
     display: block;
     text-align: center;
     margin-bottom: 1rem;
-    border: #97bf04;
+    border: 2px solid#97bf04;
+    padding: 0.5rem;
+    background-color: #d9043d;
 }
 
 ul li a {
