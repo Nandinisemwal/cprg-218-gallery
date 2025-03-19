@@ -69,9 +69,19 @@ h2 {
 
 figure {
     background-color: white;
-    border: 20px solid white;
+    border: 30px solid white;
 }
 
 #gallery-container img {
     border-bottom: 10px solid #97bf04;
 }
+
+footer {
+    background-color: #d9043d;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+/*mobile version finished*/
+
+/*tablet verion*/
