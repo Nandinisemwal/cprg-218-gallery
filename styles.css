@@ -138,5 +138,14 @@ footer {
 @media screen and (min-width: 1000px) {
     #gallery-container {
         grid-template-columns: repeat(3 1fr);
+        gap: 2rem;
+    }
+
+    figure:last-of-type {
+        grid-column: span 2;
+    }
+
+    img {
+        max-width: 100%;
     }
 }
