@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 }
+
 /*starting with the body and mobile version first*/
 body {
     font-family: sans-serif;
@@ -15,22 +16,21 @@ body {
 header {
     background-color: #120323;
     text-align: center;
+    padding: 1rem;
 }
 /*added header*/
 
 /* color to h1*/
 h1 {
     color: #97bf04;
+    font-size: 2rem;
 }
 
 /* css to nav*/
 nav {
-    background-color: none;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    width: 100%;
+    padding-top: 1rem 1rem 1rem 1rem;
+    width: 95%;
+    margin: auto;
 }
 
 ul {
@@ -56,4 +56,22 @@ ul li a {
 /* start working on the main body*/
 h2 {
     text-align: center;
+    margin: 1.5;
+    font-size: 2rem;
+}
+
+#gallery-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+figure {
+    background-color: white;
+    border: 20px solid white;
+}
+
+#gallery-container img {
+    border-bottom: 10px solid #97bf04;
 }
