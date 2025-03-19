@@ -85,3 +85,26 @@ footer {
 /*mobile version finished*/
 
 /*tablet verion*/
+
+@media screen and (max-width: 1000px) {
+
+    header {
+        padding-bottom: 0rem;
+    }
+
+    nav {
+        background-color: #d9043d;
+        width: 100%;
+        border: 8px solid #d9043d;
+        margin-right: 6 6rem;
+    }
+
+    ul li {
+        display: inline;
+        border: none;
+        width: 100%;
+        padding-left: 2rem;
+    }
+
+
+}
